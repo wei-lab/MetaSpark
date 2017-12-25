@@ -1,13 +1,14 @@
 MetaSpark
 ===========
 MetaSpark is an efficient fragment recruitment algorithm for next generation sequences against microbial reference genomes.
+The runtime environment includes JDK1.8.0_151, Scala2.11.8, Hadoop2.7.4 and Spark2.2.0.
 
 Install
 --------
 
 MetaSpark is build using Apache Maven. To build MetaSpark, run:
 
-        git clone https://github.com/zhouweiyg/metaspark.git
+        git clone https://github.com/wei-lab/metaspark.git
         cd MetaSpark/MetaSpark-v2.0/MetaSpark-v2.0
         mvn compile package
 
